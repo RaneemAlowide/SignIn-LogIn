@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+</head>
+
+<body> 
+        <div class="wrapper">
+           <div class="title-text">
+              <div class="title login">
+                 Login Form
+              </div>
+              <div class="title signup">
+                 Signup Form
+              </div>
+           </div>
+           <div class="form-container">
+              <div class="slide-controls">
+                 <input type="radio" name="slide" id="login" checked>
+                 <input type="radio" name="slide" id="signup">
+                 <label for="login" class="slide login">Login</label>
+                 <label for="signup" class="slide signup">Signup</label>
+                 <div class="slider-tab"></div>
+              </div>
+              <div class="form-inner">
+                 <form action="#" class="login">
+                    <div class="field">
+                       <input type="text" placeholder="username" required>
+                    </div>
+                    <div class="field">
+                       <input type="password" placeholder="Password" required>
+                    </div>
+                    <div class="pass-link">
+                       <a href="https://codepen.io/rnoma18/pen/YzaXEdb">Forgot password?</a>
+                    </div>
+                    <div class="field btn">
+                       <div class="btn-layer"></div>
+                       <input type="submit" value="Login" onclick = "alert('You are logged in')">
+                    </div>
+                    <!-- <div class="signup-link">
+                       Don't Have an account? <a href="">Signup now</a>
+                    </div> -->
+                 </form>
+                 <form action="#" class="signup">
+                    <div class="field">
+                       <input type="text" placeholder="Email Address" required>
+                    </div>
+                    <div class="field">
+                       <input type="text" placeholder="Username" required>
+                    </div>
+                  
+                    <div class="field">
+                       <input type="password" placeholder="Password" required>
+                       <span class="toggle"> </span>
+                       <span class="toggle"> </span>
+                       <span class="ripple"> </span>
+                    </div>
+
+                    <div class="pass-strength">
+                     <div class="strength-percent"><span></span></div>
+                     <span class="strength-label">Strength</span>
+                    </div>
+                    
+                    <div class="field">
+                       <input type="password" placeholder="Confirm password" required>
+                    </div>
+                    <div class="field btn">
+                       <div class="btn-layer"></div>
+                       <input type="submit" value="Signup" onclick = "alert('account has been created')" >
+                    </div>
+                 </form>
+              </div>
+           </div>
+        </div>
+
+        
+ 
+</body>
+</html>
